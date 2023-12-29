@@ -8,22 +8,28 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-        <!-- fonst google -->
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- fonst google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">    
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- simply countdown -->
-    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" >
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css">
     <script src="countdown/simplyCountdown.min.js"></script>
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
 <body>
     <!-- hero section start -->
-    <section id="hero" class="hero w-100 h-100 mx-auto p-3 text-center d-flex justify-content-center align-items-center text-white">
+    <section id="hero"
+        class="hero w-100 h-100 mx-auto p-3 text-center d-flex justify-content-center align-items-center text-white">
         <main>
             <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
             <h1>Masamune & Sagiri</h1>
@@ -34,6 +40,147 @@
     </section>
     <!-- hero section end -->
 
+
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top myNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Wedding</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#story">Story</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#rsvp">RSVP</a>
+                        <a class="nav-link" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar section end -->
+
+
+    <!-- home section start -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 31 Desember 2023 di IKN, Kaltim.</h3>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i,
+                        untuk hadir pada acara pernikahan kami.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Sagiri Izumi</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt officiis praesentium
+                                doloremque assumenda quibusdam iusto.</p>
+                            <p>Putri dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/couple-sagiri.jpg" alt="Sagiri"
+                                class="img-fluid img-thumbnail rounded-circle">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- heart icon -->
+                <span class="heart"> <i class="bi bi-heart-fill"></i> </span>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/couple-masamune.jpg" alt="Masamune"
+                                class="img-fluid img-thumbnail rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Masamune Izumi</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt officiis praesentium
+                                doloremque assumenda quibusdam iusto.</p>
+                            <p>Putra dari Bpk. Ipsum <br> dan <br> Ibu Lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+
+    <!-- info section start -->
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p>Alamat: Pemaluan, Kec. Sepaku, Kabupaten Penajam Paser Utara, Kalimantan Timur</p>
+                    <a href="https://maps.app.goo.gl/2iTPtfgPPWXP9HfE7" target="_blank"
+                        class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+                    <p class="desc">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
+                        ada tanda-tanda
+                        sedang dilangsungkan pernikahan, boleh jadi Anda salah tanggal, atau salah tempat.
+                    </p>
+                </div>
+            </div>
+            <!-- akad -->
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">Akad Nikah</div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>08:00 - 10:00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Minggu, 31 Desember 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.</div>
+                    </div>
+                </div>
+            <!-- resepsi -->
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">Resepsi</div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>11:00 - selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Minggu, 31 Desember 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- info section end -->
 
     <!-- Script CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -49,10 +196,22 @@
             minutes: 59, // Default is 0 [0-59] integer
             seconds: 59, // Default is 0 [0-59] integer
             words: { //words displayed into the countdown
-                days: { singular: 'hari', plural: 'hari' },
-                hours: { singular: 'jam', plural: 'jam' },
-                minutes: { singular: 'menit', plural: 'menit' },
-                seconds: { singular: 'detik', plural: 'detik' }
+                days: {
+                    singular: 'hari',
+                    plural: 'hari'
+                },
+                hours: {
+                    singular: 'jam',
+                    plural: 'jam'
+                },
+                minutes: {
+                    singular: 'menit',
+                    plural: 'menit'
+                },
+                seconds: {
+                    singular: 'detik',
+                    plural: 'detik'
+                }
             },
         });
     </script>
