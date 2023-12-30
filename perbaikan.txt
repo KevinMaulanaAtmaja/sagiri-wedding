@@ -1,0 +1,5 @@
+perbaikan pada ukuran foto galeri tiap breakpoint -> 
+perbaiki real data ->
+atur bagian gambar ke folder ->
+perbaiki saat pencet tombol home, story dst supaya pas saat berhenti scroll ->
+nyoba fullscreen lewat bs5-lightbox ->
