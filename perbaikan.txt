@@ -3,3 +3,5 @@ perbaiki real data ->
 atur bagian gambar ke folder ->
 perbaiki saat pencet tombol home, story dst supaya pas saat berhenti scroll ->
 nyoba fullscreen lewat bs5-lightbox ->
+perbaikan supaya cuma 1 kali(bbrp kali) bisa mengirim form -> 
+ubah supaya saat tdk memilih supaya tdk bisa terkirim

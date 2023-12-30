@@ -103,7 +103,9 @@ body {
 .home h2,
 .info h2,
 .story h2,
-.gallery h2 {
+.gallery h2,
+.rsvp h2,
+.gifts h2 {
     color: var(--pink);
     font-family: 'Sacramento', cursive;
     font-size: 5rem;
@@ -196,13 +198,16 @@ body {
 
 /* story */
 .story,
-.gallery {
+.gallery,
+.rsvp,
+.gifts {
     padding-top: 10rem;
     padding-bottom: 8rem;
 }
 
 .story span,
-.gallery span {
+.gallery span,
+.gifts span {
     text-transform: uppercase;
     color: #666;
     font-size: 0.9rem;
@@ -212,7 +217,9 @@ body {
 }
 
 .story p,
-.gallery p {
+.gallery p,
+.rsvp p,
+.gifts p {
     font-size: 1rem;
     font-weight: 300;
 }
@@ -328,6 +335,61 @@ body {
     background-color: #ffd2e5;
 }
 
+/* rsvp */
+.rsvp {
+    background-color: var(--bg);
+}
+
+.rsvp h2 {
+    font-size: 4.5rem;
+}
+
+.rsvp p {
+    color: white;
+}
+
+.rsvp form label {
+    color: white;
+}
+
+.rsvp button {
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.rsvp button:hover {
+    background-color: white;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+/* footer */
+footer {
+    padding: 2rem;
+    background-color: var(--pink);
+    color: white;
+}
+
+footer a {
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    transition: all 0.5s;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
+
 
 
 
@@ -381,6 +443,11 @@ body {
         left: -13px;
         right: auto;
     }
+
+    .rsvp button {
+        margin-top: 28px;
+        margin-left: 10px;
+    }
 }
 
 /* tablet */
@@ -409,6 +476,8 @@ body {
         width: 100px;
         height: 100px;
     }
+
+    
 }
 
 /* mobile phone */
@@ -449,5 +518,10 @@ body {
 
     .timeline li .timeline-panel::after {
         top: 31px;
+    }
+
+    .rsvp .container form .container{
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
