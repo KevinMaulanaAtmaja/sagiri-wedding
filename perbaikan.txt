@@ -4,4 +4,8 @@ atur bagian gambar ke folder ->
 perbaiki saat pencet tombol home, story dst supaya pas saat berhenti scroll ->
 nyoba fullscreen lewat bs5-lightbox ->
 perbaikan supaya cuma 1 kali(bbrp kali) bisa mengirim form -> 
-ubah supaya saat tdk memilih supaya tdk bisa terkirim
+tmbh cerita di story lagi ->
+ubah supaya saat tdk memilih supaya tdk bisa terkirim ->
+ubah supaya tamu memasukkan nama tamu sendiri dan pw utk admin ->
+posisi gambar kode qr saweria ga ke tengah -> 
+jdikan kode random supaya code tdk bisa dicopy (bundling) ->

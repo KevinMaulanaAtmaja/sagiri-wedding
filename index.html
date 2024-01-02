@@ -31,7 +31,7 @@
     <section id="hero"
         class="hero w-100 h-100 mx-auto p-3 text-center d-flex justify-content-center align-items-center text-white">
         <main>
-            <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
+            <h4>Kepada <span>Bapak/Ibu/Saudara/i </span> </h4>
             <h1>Masamune & Sagiri</h1>
             <p>Akan melangsungkan resepsi pernikahan dalam: </p>
             <div class="simply-countdown"></div>
@@ -130,6 +130,10 @@
                 <div class="col-md-8 col-10 text-center">
                     <h2>Informasi Acara</h2>
                     <p>Alamat: Pemaluan, Kec. Sepaku, Kabupaten Penajam Paser Utara, Kalimantan Timur</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63828.15074064518!2d116.6773155!3d-0.9590314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df6c9a9138990fd%3A0x593aee2ae36416b6!2sTitik%20Nol%20IKN%20Nusantara!5e0!3m2!1sid!2sid!4v1704203556407!5m2!1sid!2sid"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <a href="https://maps.app.goo.gl/2iTPtfgPPWXP9HfE7" target="_blank"
                         class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
                     <p class="desc">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
@@ -151,7 +155,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <i class="bi bi-calendar3 d-block"></i>
-                                    <span>Minggu, 31 Desember 2023</span>
+                                    <span>Selasa, 31 Desember 2024</span>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +175,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <i class="bi bi-calendar3 d-block"></i>
-                                    <span>Minggu, 31 Desember 2023</span>
+                                    <span>Selasa, 31 Desember 2024</span>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +313,6 @@
                     <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
                 </div>
             </div>
-
             <form method="post"
                 action="https://script.google.com/macros/s/AKfycbwR7rngCw6VnZ11GWQW1g_f7H3EzaLaK4OKNaRERghtbupwTptus-rkKanw5Px1EAO9/exec"
                 class="row row-cols-md-auto g-3 align-items-center justify-content-center" id="my-form">
@@ -336,9 +339,33 @@
                         </select>
                     </div>
                 </div>
-
                 <button class="btn btn-primary col-9">Kirim</button>
             </form>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function () { // DON'T EDIT BELOW THIS LINE
+                            var d = document,
+                                s = d.createElement('script');
+                            s.src = 'https://wedding-wltqdls3qw.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                            powered by Disqus.</a></noscript>
+                </div>
+            </div>
         </div>
     </section>
     <!-- rsvp section end -->
@@ -351,7 +378,6 @@
                     <span>Ungkapan Tanda Kasih</span>
                     <h2>Kirim hadiah</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quasi!</p>
-                    
                 </div>
             </div>
             <div class="row justify-content-center text-center">
@@ -373,7 +399,7 @@
         </div>
     </section>
     <!-- gifts section end -->
-    
+
     <!-- footer section start -->
     <footer>
         <div class="container">
@@ -381,18 +407,28 @@
                 <div class="col text-center">
                     <small class="d-block">&copy; 2023 Wedding. All Rights Reserved</small>
                     <small class="d-block">Design by <a href="https://github.com/KevinMaulanaAtmaja">Amelia</a></small>
-                    
                     <ul class="mt-3">
                         <li><a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a></li>
                         <li><a href="https://youtube.com"><i class="bi bi-youtube"></i></a></li>
                         <li><a href="https://tiktok.com"><i class="bi bi-tiktok"></i></a></li>
                     </ul>
-                    </div>
+                </div>
             </div>
         </div>
     </footer>
     <!-- footer section end -->
-    
+
+    <!-- audio section start -->
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="audio/Batas-Senja.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+    <!-- audio section end -->
+
 
     <!-- Script CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -401,9 +437,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
+    <!-- script countdown -->
     <script>
         simplyCountdown('.simply-countdown', {
-            year: 2023, // required
+            year: 2024, // required
             month: 12, // required
             day: 31, // required
             hours: 23, // Default is 0 [0-23] integer
@@ -430,8 +467,13 @@
         });
     </script>
 
+    <!-- script audio -->
     <script>
         const rootElement = document.querySelector(':root');
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i');
+        const song = document.querySelector('#song');
+        let isPlaying = false;
 
         function disableScroll() {
             scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -447,15 +489,36 @@
         function enableScroll() {
             window.onscroll = function () {}
             rootElement.style.scrollBehavior = 'smooth';
-            localStorage.setItem('opened', 'true');
+            // localStorage.setItem('opened', 'true');
+            playAudio();
         }
 
 
-        if (!localStorage.getItem('opened')) {
-            disableScroll();
+        function playAudio() {
+            song.volume = 0.2;
+            audioIconWrapper.style.display = 'flex';
+            song.play();
+            isPlaying = true;
         }
+
+        audioIconWrapper.onclick = function () {
+            if (isPlaying) {
+                song.pause();
+                audioIcon.classList.remove('bi-disc');
+                audioIcon.classList.add('bi-pause-circle');
+            } else {
+                song.play();
+                audioIcon.classList.add('bi-disc');
+                audioIcon.classList.remove('bi-pause-circle');
+            }
+            isPlaying = !isPlaying;
+        }
+        // if (!localStorage.getItem('opened')) {
+        // }
+        disableScroll();
     </script>
 
+    <!-- script form  -->
     <script>
         window.addEventListener("load", function () {
             const form = document.getElementById('my-form');
@@ -472,6 +535,17 @@
                     })
             });
         });
+    </script>
+
+    <!-- script nama undangan -->
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('n') || '';
+        const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+        // console.log(nama);
+        const namaContainer = document.querySelector('.hero h4 span');
+        namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+        document.querySelector('#nama').value = nama;
     </script>
 </body>
 

@@ -390,6 +390,36 @@ footer li {
     margin: 0.5rem;
 }
 
+/* audio */
+.audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: putar-putar 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    /* background-color: red; */
+}
+
+@keyframes putar-putar {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 
 
 
@@ -476,8 +506,6 @@ footer li {
         width: 100px;
         height: 100px;
     }
-
-    
 }
 
 /* mobile phone */
@@ -518,10 +546,5 @@ footer li {
 
     .timeline li .timeline-panel::after {
         top: 31px;
-    }
-
-    .rsvp .container form .container{
-        margin-left: 15px;
-        margin-right: 15px;
     }
 }
